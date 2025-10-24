@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite DE SAS", cursive;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: #e0afff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor{
+    width: 60%;
+    height: 45%;
+    background: linear-gradient(90deg,rgba(192, 110, 255, 1) 0%, rgba(164, 49, 254, 1) 100%);
+    border-radius: 30px;
+    box-shadow: 3px 10px 16px 2px #00000033;
+    display: flex;
+    position: relative;
+}
+.img{
+    height: 100%;
+    width: 30%;
+}
+.texto{
+    height: 100%;
+    width: 70%;
+    padding: 40px;
+    color: white;
+    padding-top:80px ;
+}
+.texto p{
+    font-size: 25px;
+}
+.close{
+    background-color: #e4c0ff;
+    color: #a83afd;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+.btn{
+    display: flex;
+}
+.btns a{
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 20px 20px;
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+}
+.btns a.si{
+    background-color: #f3e8ff;
+    color: #bf76ee;
+}
+.btns a.no{
+    border: 2px solid #d479f9;
+    color: #dfadf2;
+}

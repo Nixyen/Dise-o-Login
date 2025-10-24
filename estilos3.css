@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor {
+    width: 400px;
+    height: auto; /* el auto se adapta al contenido*/
+    background-color: blue;
+    color: white;
+    padding: 20px 40px 60px 80px;/*1.Arriba-2.derecha-3.abajo-4.izquierda*/
+    /*padding-top: 30px;
+    padding-bottom: 70px;
+    padding-right: 80px; */
+    margin: 10px 20px 40px 80px;
+   /*margin: 30px;*/
+   /*border: 2px dotted red;/*tamaño,tipo,color del borde*/
+   border-radius: 40px 10px 80px;
+}
+/*
+*{
+    margin: 0;
+    padding: 0;
+}*/
